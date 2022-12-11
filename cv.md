@@ -1,4 +1,5 @@
 # Vladislav Koshkarev
-## contact me @ dddvvv.dv@gmail.com
+## Contact me @ dddvvv.dv@gmail.com
 ## Skills: HTML, CSS, JavaScript
 ## English: B1
+## Education: «JavaScript/Front-end. Stage 0» course by RS School
