@@ -29,39 +29,40 @@ header, footer {
   background-color: rgb(191, 231, 244);
   padding: 10px;
 }
-h3 {
-  margin: 0;
-}
 a {
   color: rgb(0, 0, 109);
   font-weight: bold;
   text-decoration: none;
 }
 .container {
-    max-width: 1440px;
-    margin: 0 auto;   
+  max-width: 1440px;
+  margin: 0 auto;   
 }
 .main-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    /* height: 100vh; */
-    
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* height: 100vh; */
+  
+}
 .section {
-    box-sizing: border-box;
-    width: 50%;
-    padding: 10px;
-    border-right: 1px solid rgb(191, 231, 244);
-  }
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px;
+  border-right: 1px solid rgb(191, 231, 244);
+}
+.section-caption {
+  margin: 0;
+  font-size: 20px;
+}
 .nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
 .nav-link {
     padding: 0 10px;
     text-decoration: none;
