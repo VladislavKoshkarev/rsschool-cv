@@ -33,7 +33,9 @@ h3 {
   margin: 0;
 }
 a {
-  color: rgb(0, 0, 109)
+  color: rgb(0, 0, 109);
+  font-weight: bold;
+  text-decoration: none;
 }
 .container {
     max-width: 1440px;
@@ -58,6 +60,7 @@ a {
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 10px;
   }
 .nav-link {
     padding: 0 10px;
@@ -100,4 +103,28 @@ a {
 }
 .section-title {
   border-bottom: 1px solid rgb(191, 231, 244);
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  .section-profile {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1440px) {
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 2560px) {
+  .main-container {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
