@@ -101,6 +101,8 @@ a {
 }
 .code-example {
   background-color: beige;
+  font-size: 14px;
+  padding: 10px;
 }
 .section-title {
   border-bottom: 1px solid rgb(191, 231, 244);
