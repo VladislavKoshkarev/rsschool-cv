@@ -85,14 +85,11 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
                 <div class="code-example">
-                    <code>
-                            function countOccurrences(array, searchElement) {
-                                return array.reduce((accumulator, currentValue) => {
-                                    const occurrence = (currentValue === searchElement) ? 1 : 0;
-                                    return accumulator + occurrence
-                                    },0)
-                                }
-                        </code>
+                    <pre>function countOccurrences(array, searchElement) {
+return array.reduce((accumulator, currentValue) =&gt; {
+const occurrence = (currentValue === searchElement) ? 1 : 0;
+return accumulator + countOccurrences}, 0)
+}</pre>
                 </div>
             </section>
             <section class="section" id="education">
